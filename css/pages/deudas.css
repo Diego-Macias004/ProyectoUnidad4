@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Arima', cursive;
+    background-image: url('../../assets/ImagenesWeb/cobranza%20y%20deudas.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-bar {
+    background-color: #333;
+    color: #ccc;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.titulo-central {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 8px 25px;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.icono-izquierda {
+    background-color: white;
+    padding: 8px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.icono-izquierda:hover {
+    background-color: #e0e0e0;
+}
+
+.icono-izquierda img {
+    width: 25px;
+    height: auto;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+.contenido {
+    background-color: rgba(204, 196, 184, 0.95);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.contenido p,
+.contenido ul {
+    font-family: 'Arima', cursive;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.contenido ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.contenido li {
+    margin-bottom: 8px;
+}
+
+.sub-servicio {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.final {
+    font-size: 18px;
+    text-align: right;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 6px;
+    font-size: 12px;
+    margin-top: auto;
+}

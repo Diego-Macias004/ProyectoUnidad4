@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Despacho Jurídico Lucio Macias</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/pages/contacto.css">
+</head>
+<body class="bg-custom text-center">
+<header class="custom-bg text-white py-3">
+  <div class="container-fluid px-4 d-flex flex-column flex-md-row align-items-center justify-content-between">
+    <div class="d-flex align-items-center mb-2 mb-md-0">
+      <img src="../assets/ImagenesWeb/logo.png" alt="Logo del Despacho" width="50" class="me-2">
+      <h1 class="h5 m-0">DESPACHO JURÍDICO LUCIO MACIAS</h1>
+    </div>
+
+    <nav class="navbar navbar-expand-md navbar-dark p-0">
+      <div class="container-fluid p-0">
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenuContacto" aria-controls="navbarMenuContacto" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMenuContacto">
+          <ul class="navbar-nav ms-md-3 text-center text-md-start">
+            <li class="nav-item"><a href="../Index.html" class="nav-link text-white">INICIO</a></li>
+            <li class="nav-item"><a href="./SobreNosotros.html" class="nav-link text-white">SOBRE NOSOTROS</a></li>
+            <li class="nav-item"><a href="./Servicios.html" class="nav-link text-white">SERVICIOS</a></li>
+            <li class="nav-item"><a href="./Testimonios.html" class="nav-link text-white">TESTIMONIOS</a></li>
+            <li class="nav-item"><a href="./Noticias.html" class="nav-link text-white">NOTICIAS</a></li>
+            <li class="nav-item"><a href="./Contacto.html" class="nav-link bg-white text-dark rounded">CONTACTO</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+
+  <main class="bg-dark formulario-contacto">
+    <div class="p-4 rounded contenedor-contacto">
+      <div class="justify-content-between align-items-center mb-4 encabezado-formulario">
+        <h1 class="h4 fw-bold">📩 CONTÁCTANOS</h1>
+        <div class="iconos d-flex">
+          <a href="https://www.google.com.mx/maps/place/Prof.+Aristeo+Ruiz+19,+Centro,+47200+Teocaltiche,+Jal./@21.4353305,-102.5750725,17z" target="_blank">
+            <img src="../assets/IconosWeb/google_maps_new_logo_icon_159147.ico" alt="Google Maps" class="ms-2" width="50">
+          </a>
+          <a href="https://wa.me/346118217" target="_blank">
+            <img src="../assets/IconosWeb/whatsappmessage_conversation_whatsap_7149.ico" alt="WhatsApp" class="ms-2" width="50">
+          </a>
+          <a href="mailto:diegodario004@gmail.com" target="_blank">
+            <img src="../assets/IconosWeb/gmail_new_logo_icon_159149.ico" alt="Gmail" class="ms-2" width="50">
+          </a>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-8">
+          <form>
+            <div class="mb-3 text-start">
+              <label for="nombre" class="form-label fw-bold">Nombre</label>
+              <input type="text" class="form-control" id="nombre" name="nombre" required>
+            </div>
+            <div class="mb-3 text-start">
+              <label for="correo" class="form-label fw-bold">Correo Electrónico</label>
+              <input type="email" class="form-control" id="correo" name="correo" required>
+            </div>
+            <div class="mb-3 text-start">
+              <label for="telefono" class="form-label fw-bold">Teléfono</label>
+              <input type="tel" class="form-control" id="telefono" name="telefono" required>
+            </div>
+            <div class="mb-3 text-start">
+              <label for="servicio" class="form-label fw-bold">Servicio</label>
+              <select class="form-select" id="servicio" name="servicio" required>
+                <option selected disabled>Seleccione una opción</option>
+                <option value="contratos">Contratos y Obligaciones</option>
+                <option value="mediación">Procedimientos Civiles y Mediación</option>
+                <option value="civil">Responsabilidad Civil</option>
+                <option value="herencias">Herencias y Sucesiones</option>
+                <option value="bienes">Propiedades y Bienes Inmuebles</option>
+                <option value="familia">Derecho de Familia</option>
+                <option value="negocios">Sociedades y Negocios</option>
+                <option value="deudas">Cobranza y Deudas</option>
+              </select>
+            </div>
+            <div class="mb-3 text-start">
+              <label for="asunto" class="form-label fw-bold">Asunto</label>
+              <textarea class="form-control" id="asunto" name="asunto" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-custom w-100">ENVIAR</button>
+          </form>
+        </div>
+        <div class="col-md-4 justicia">
+          <img src="../assets/ImagenesWeb/diosa derecho.png" alt="Dama de la Justicia" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="text-white text-center py-2 small">
+    <p class="mb-0">© 2025 Despacho Jurídico Lucio Macías. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../js/pages/validacion-contacto.js"></script>
+</body>
+</html>

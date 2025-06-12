@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding-bottom: 60px;
+}
+
+.bg-overlay {
+    background: url("../../assets/ImagenesWeb/derecho-ley-e1552664252875.jpg") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.custom-bg {
+    background-color: #333;
+}
+
+.bienvenida {
+    background-color: #CCC4B8;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bienvenida .parrafo {
+    font-family: 'Arima', cursive;
+    color: black;
+    font-weight: bold;
+}
+
+.bienvenida ul {
+    font-family: 'Arima', cursive;
+    padding-left: 0;
+    text-align: right;
+    color: black;
+    font-weight: bold;
+}
+
+.subtitulo {
+    font-style: italic;
+    color: #555;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* === RESPONSIVE DESIGN === */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1rem;
+        text-align: center;
+    }
+    header img {
+        margin: 0 auto;
+        display: block;
+        max-width: 50px;
+    }
+    .bienvenida {
+        padding: 1rem;
+        text-align: center;
+        border-radius: 0.5rem;
+    }
+    .bienvenida ul {
+        text-align: center;
+        padding-left: 0;
+    }
+}
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 0.9rem;
+    }
+    header img {
+        max-width: 40px !important;
+    }
+    .bienvenida {
+        font-size: 0.9rem;
+        padding: 0.75rem;
+        background-color: rgba(204, 196, 184, 0.95);
+    }
+}

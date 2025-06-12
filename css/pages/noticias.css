@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #CCC4B8;
+    margin: 0;
+    padding-bottom: 60px;
+}
+
+header {
+    background: #333;
+    padding: 10px 20px;
+}
+
+.logo img {
+    width: 50px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+nav a.activo {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.noticias {
+    background-color: #97a6a8;
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Arima', cursive;
+    font-weight: bold;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.noticias:hover {
+    background-color: #889699;
+}
+
+.noticias h3 {
+    font-size: 16px;
+    font-family: 'Arima', cursive;
+}
+
+.noticias p {
+    font-size: 14px;
+    color: black;
+    font-family: 'Arima', cursive;
+}
+
+.subir-noticia {
+    background-color: #9fb3b8;
+    color: black;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.subir-noticia:hover {
+    background-color: #8da5aa;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 10px;
+}
+/* === RESPONSIVE DESIGN === */
+@media (max-width: 768px) {
+  header.custom-bg {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
