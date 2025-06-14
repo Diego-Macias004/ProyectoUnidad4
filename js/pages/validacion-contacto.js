@@ -35,5 +35,5 @@ document.getElementById('formContacto').addEventListener('submit', function (e) 
   }
 
   // Si pasa todas las validaciones:
-  prompt('Su mensaje ha sido enviado. Nos pondremos en contacto con usted lo antes posible.');
+  alert('Su mensaje ha sido enviado. Nos pondremos en contacto con usted lo antes posible.');
 });
