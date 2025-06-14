@@ -36,5 +36,4 @@ document.getElementById('formContacto').addEventListener('submit', function (e) 
 
   // Si pasa todas las validaciones:
   alert('Su mensaje ha sido enviado. Nos pondremos en contacto con usted lo antes posible.');
-  window.location.href = './Enviado.html';
 });
